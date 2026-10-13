@@ -49,3 +49,5 @@ Publication vérifiée : commit `52bee09`, workflow [38354358247](https://github
 ## Mention Pharmactiv — 13 octobre 2026
 
 Ajout de « Membre du réseau Pharmactiv » en pied de page, sous la ligne de situation, en texte discret de 12 px, sans logo concurrent à l’identité des Vernedes. Mention centralisée dans `content/pharmacy.json` (`affiliation`) et commune aux pages de présentation et du kit. Demande explicite de Pierre. Prochaine action : validation du contenu par Marjorie.
+
+Vérification : les 5 tests passent ; workflow GitHub Actions `38354557429` terminé avec succès pour `8192a1f`. Mention contrôlée sur la page publique, capture dans `delivery/mention-pharmactiv.jpg`.

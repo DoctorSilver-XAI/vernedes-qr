@@ -51,3 +51,9 @@ Publication vérifiée : commit `52bee09`, workflow [38354358247](https://github
 Ajout de « Membre du réseau Pharmactiv » en pied de page, sous la ligne de situation, en texte discret de 12 px, sans logo concurrent à l’identité des Vernedes. Mention centralisée dans `content/pharmacy.json` (`affiliation`) et commune aux pages de présentation et du kit. Demande explicite de Pierre. Prochaine action : validation du contenu par Marjorie.
 
 Vérification : les 5 tests passent ; workflow GitHub Actions `38354557429` terminé avec succès pour `8192a1f`. Mention contrôlée sur la page publique, capture dans `delivery/mention-pharmactiv.jpg`.
+
+## Revue UX/UI ciblée — 13 octobre 2026
+
+Signature typographique remplaçant le V/étoile, textes et actions plus lisibles, cartes de services mobiles en une colonne, coordonnées prioritaires avant la carte sur téléphone. Navigation vers services et horaires explicite. Aucun changement de destination du QR. Audit détaillé : `audit-ux-ui.md` ; comparatif illustré local : `delivery/audit/rapport.html`.
+
+Contrôles : quatre largeurs sans débordement, copie et itinéraire fonctionnels, liens téléphone vérifiés sans appel, focus visible, console sans erreur. Lighthouse local mobile 100/100/100. Prochaine action : validation par Marjorie et essai des parcours avec une personne extérieure au projet.

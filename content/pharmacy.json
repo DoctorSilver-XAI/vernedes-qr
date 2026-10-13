@@ -19,8 +19,8 @@
     "title": "Un nouveau lieu,",
     "titleAccent": "tout près de vous.",
     "description": "À Fréjus, Marjorie Lahaie prépare un nouveau chapitre : la Grande Pharmacie des Vernedes. Découvrez le futur lieu et les services prévus pour vous accompagner au quotidien.",
-    "primaryAction": "Découvrir les informations",
-    "secondaryAction": "Nous contacter",
+    "primaryAction": "Adresse & horaires",
+    "secondaryAction": "Les services prévus",
     "illustrationCaption": "Simulation architecturale de la future pharmacie · visuel du projet, non contractuel.",
     "projectLabel": "LE PROJET DE MARJORIE LAHAIE",
     "projectCaption": "Votre future pharmacie prend forme."
@@ -75,7 +75,7 @@
   },
   "actions": {
     "call": "Appeler pour se renseigner",
-    "directions": "Voir la future adresse",
+    "directions": "Ouvrir l’itinéraire",
     "copy": "Copier l’adresse",
     "copySuccess": "Adresse copiée.",
     "copyFailure": "La copie automatique n’est pas disponible. Sélectionnez l’adresse ci-dessus pour la copier."

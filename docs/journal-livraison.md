@@ -59,3 +59,5 @@ Signature typographique remplaçant le V/étoile, textes et actions plus lisible
 Contrôles : quatre largeurs sans débordement, copie et itinéraire fonctionnels, liens téléphone vérifiés sans appel, focus visible, console sans erreur. Lighthouse local mobile 100/100/100. Prochaine action : validation par Marjorie et essai des parcours avec une personne extérieure au projet.
 
 Contrôle après déploiement : une feuille de style ancienne restait en cache dans Chrome malgré le nouvel HTML. Ajout d’une version dérivée du contenu aux URL du CSS et du favicon ; adaptation du contrôle des ressources pour ignorer la query string. Cette correction assure le chargement de la version courante lors des mises à jour.
+
+Publication finale vérifiée : `e00f601`, workflow `38356729017` réussi. Feuille versionnée `3321b9f56b40` chargée sur le site public, signature de 32 px sur ordinateur, services en une colonne avec texte de 16 px sur mobile, aucun débordement à 390 px. Capture publique : `delivery/audit/06-publication.jpg`.

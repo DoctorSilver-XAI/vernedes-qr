@@ -44,3 +44,8 @@ Vérification locale : 5 tests réussis, 4 exports QR décodés, largeurs 320/39
 Prochaine action : validation par Marjorie du visuel, des informations pratiques et de la présentation de son projet ; confirmer le crédit du visuel et l’accès patient avant diffusion officielle.
 
 Publication vérifiée : commit `52bee09`, workflow [38354358247](https://github.com/DoctorSilver-XAI/vernedes-qr/actions/runs/38354358247) terminé avec succès. La page publique affiche la simulation et les textes de Marjorie ; les trois images (façade, carte et QR) sont chargées. Captures de la version publique conservées dans `delivery/accueil-personnalise-publie.jpg` et `delivery/carte-mobile-publiee.jpg` (hors dépôt).
+
+
+## Mention Pharmactiv — 13 octobre 2026
+
+Ajout de « Membre du réseau Pharmactiv » en pied de page, sous la ligne de situation, en texte discret de 12 px, sans logo concurrent à l’identité des Vernedes. Mention centralisée dans `content/pharmacy.json` (`affiliation`) et commune aux pages de présentation et du kit. Demande explicite de Pierre. Prochaine action : validation du contenu par Marjorie.

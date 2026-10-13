@@ -18,10 +18,12 @@
     "eyebrow": "BIENTÔT À FRÉJUS",
     "title": "Un nouveau lieu,",
     "titleAccent": "tout près de vous.",
-    "description": "La Grande Pharmacie des Vernedes prépare son ouverture. Retrouvez ici les premières informations sur votre future pharmacie et les services prévus pour vous accompagner au quotidien.",
+    "description": "À Fréjus, Marjorie Lahaie prépare un nouveau chapitre : la Grande Pharmacie des Vernedes. Découvrez le futur lieu et les services prévus pour vous accompagner au quotidien.",
     "primaryAction": "Découvrir les informations",
     "secondaryAction": "Nous contacter",
-    "illustrationCaption": "Une évocation de notre univers méditerranéen."
+    "illustrationCaption": "Simulation architecturale de la future pharmacie · visuel du projet, non contractuel.",
+    "projectLabel": "LE PROJET DE MARJORIE LAHAIE",
+    "projectCaption": "Votre future pharmacie prend forme."
   },
   "hours": {
     "morning": "8h30–13h30",
@@ -34,15 +36,31 @@
     "description": "Quatre services prévus dans votre future pharmacie. Leurs modalités seront précisées à l’ouverture."
   },
   "services": [
-    { "icon": "vaccine", "title": "Vaccination", "description": "Un service de vaccination à retrouver dans votre future pharmacie." },
-    { "icon": "orthopedic", "title": "Orthopédie", "description": "Un espace dédié à l’orthopédie et à vos besoins de confort au quotidien." },
-    { "icon": "home", "title": "Maintien à domicile", "description": "Un service pour vous accompagner dans vos besoins à domicile." },
-    { "icon": "delivery", "title": "Livraison", "description": "Un service de livraison prévu pour faciliter votre quotidien." }
+    {
+      "icon": "vaccine",
+      "title": "Vaccination",
+      "description": "Un service de vaccination à retrouver dans votre future pharmacie."
+    },
+    {
+      "icon": "orthopedic",
+      "title": "Orthopédie",
+      "description": "Un espace dédié à l’orthopédie et à vos besoins de confort au quotidien."
+    },
+    {
+      "icon": "home",
+      "title": "Maintien à domicile",
+      "description": "Un service pour vous accompagner dans vos besoins à domicile."
+    },
+    {
+      "icon": "delivery",
+      "title": "Livraison",
+      "description": "Un service de livraison prévu pour faciliter votre quotidien."
+    }
   ],
   "practical": {
     "eyebrow": "VOTRE FUTURE ADRESSE",
-    "title": "L’essentiel, en un coup d’œil.",
-    "intro": "Gardez ces informations à portée de main. Cette page sera mise à jour au fil de la préparation de l’ouverture."
+    "title": "Rendez-vous, bientôt, rue de la Vernede.",
+    "intro": "Un premier repère pour situer votre future pharmacie à Fréjus. Retrouvez l’adresse et préparez votre itinéraire lorsque l’ouverture sera annoncée."
   },
   "contact": {
     "eyebrow": "GARDONS LE CONTACT",
@@ -68,5 +86,13 @@
     "Modalités des quatre services",
     "Identité visuelle et mentions de publication",
     "Gabarit imprimeur et raccordement du domaine définitif"
-  ]
+  ],
+  "location": {
+    "latitude": 43.443636,
+    "longitude": 6.72249,
+    "source": "Base Adresse Nationale via le géocodage IGN",
+    "label": "Repère de l’adresse · accès à confirmer à l’ouverture.",
+    "credit": "© les contributeurs OpenStreetMap",
+    "creditUrl": "https://www.openstreetmap.org/copyright"
+  }
 }

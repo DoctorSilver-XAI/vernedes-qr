@@ -65,7 +65,7 @@ test('La page essentielle reste légère et toutes les ressources visuelles sont
   const html=await readFile('dist/bienvenue/index.html');
   const css=await readFile('dist/styles.css');
   const js=await readFile('dist/app.js');
-  const hero=await readFile('dist/assets/mediterranee.webp');
+  const hero=await readFile('dist/assets/future-pharmacie.webp');
   assert.ok(html.length+css.length+js.length+hero.length<400_000,'Budget initial de 400 ko dépassé');
   assert.match(css.toString(),/prefers-reduced-motion:reduce/);
   assert.match(css.toString(),/:focus-visible/);

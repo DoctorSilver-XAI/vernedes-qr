@@ -33,3 +33,12 @@ Les scores sont une mesure ponctuelle sur Chrome avec simulation mobile, pas un 
 ### Prochaine action
 
 Faire valider à Marjorie la direction graphique et les informations listées dans `prochaines-etapes.md`. Le domaine définitif et l'impression en série restent une étape distincte.
+
+
+## Personnalisation — 13 octobre 2026
+
+Simulation architecturale fournie par Pierre intégrée en grand format sans recadrage, légendée comme projection non contractuelle. Introduction et légende nomment Marjorie Lahaie comme porteuse du projet. Carte statique du quartier en palette sauge/émeraude, données OpenStreetMap et repère d’adresse BAN/IGN ; visible aussi sur mobile et accessible sans JavaScript. Provenance et régénération : `visuels-et-carte.md`.
+
+Vérification locale : 5 tests réussis, 4 exports QR décodés, largeurs 320/390/768/1440 sans débordement, copie d’adresse fonctionnelle, console sans erreur. Lighthouse mobile : performance 99, accessibilité 100, bonnes pratiques 100. Correction du libellé accessible du lien cartographique après audit. Aucun essai physique de scan supplémentaire ; destination QR inchangée.
+
+Prochaine action : validation par Marjorie du visuel, des informations pratiques et de la présentation de son projet ; confirmer le crédit du visuel et l’accès patient avant diffusion officielle.

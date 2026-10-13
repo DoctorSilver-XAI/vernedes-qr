@@ -42,3 +42,5 @@ Simulation architecturale fournie par Pierre intégrée en grand format sans rec
 Vérification locale : 5 tests réussis, 4 exports QR décodés, largeurs 320/390/768/1440 sans débordement, copie d’adresse fonctionnelle, console sans erreur. Lighthouse mobile : performance 99, accessibilité 100, bonnes pratiques 100. Correction du libellé accessible du lien cartographique après audit. Aucun essai physique de scan supplémentaire ; destination QR inchangée.
 
 Prochaine action : validation par Marjorie du visuel, des informations pratiques et de la présentation de son projet ; confirmer le crédit du visuel et l’accès patient avant diffusion officielle.
+
+Publication vérifiée : commit `52bee09`, workflow [38354358247](https://github.com/DoctorSilver-XAI/vernedes-qr/actions/runs/38354358247) terminé avec succès. La page publique affiche la simulation et les textes de Marjorie ; les trois images (façade, carte et QR) sont chargées. Captures de la version publique conservées dans `delivery/accueil-personnalise-publie.jpg` et `delivery/carte-mobile-publiee.jpg` (hors dépôt).

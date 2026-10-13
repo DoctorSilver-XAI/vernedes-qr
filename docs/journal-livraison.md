@@ -17,7 +17,18 @@ Page mobile, page d'information sur la présentation et kit de démonstration r�
 
 ### Publication
 
-Dépôt public créé ; GitHub Pages configuré pour GitHub Actions. Déploiement et vérification publique à consigner après leur exécution.
+Déploiement du commit `15b8d45` réussi via [GitHub Actions](https://github.com/DoctorSilver-XAI/vernedes-qr/actions/runs/38351832145).
+
+- Page vérifiée : https://doctorsilver-xai.github.io/vernedes-qr/bienvenue/
+- Kit : https://doctorsilver-xai.github.io/vernedes-qr/kit/
+- Onze chemins publics contrôlés avec réponse HTTP 200 : racine, trois pages, CSS, JS, illustration, quatre fichiers QR/encart.
+- Les quatre fichiers récupérés depuis le site public ont été décodés automatiquement et pointent vers la page attendue.
+- Audit Lighthouse mobile public : **performance 100, accessibilité 100, bonnes pratiques 100** ; LCP simulé 1,7 s, CLS 0. Le défaut de libellé du monogramme est corrigé et l'audit correspondant passe.
+- Copie d'adresse sur le site public réussie ; ressources visuelles chargées ; aucun avertissement ou erreur collecté dans la console Chrome pendant cette vérification.
+- Captures et rapports conservés localement dans `delivery/` : `apercu-ordinateur.jpg`, `apercu-accueil.jpg`, `apercu-mobile.jpg`, `apercu-mobile-accueil.jpg`, `apercu-kit.jpg`, `controle-zoom-200.jpg`, `lighthouse-public-mobile.json`, `verification-publique.json`.
+- Code et documentation commités ; audio, données privées et exports de vérification exclus du dépôt.
+
+Les scores sont une mesure ponctuelle sur Chrome avec simulation mobile, pas un essai sur tous les appareils. Aucun test sur iPhone physique, Safari ou support imprimé n'est revendiqué.
 
 ### Prochaine action
 

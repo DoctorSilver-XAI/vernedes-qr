@@ -7,7 +7,7 @@ Page mobile de présentation de la future pharmacie à Fréjus, accompagnée d�
 - [Page de présentation](https://doctorsilver-xai.github.io/vernedes-qr/bienvenue/)
 - [Kit QR et encart](https://doctorsilver-xai.github.io/vernedes-qr/kit/)
 
-Ces adresses sont les destinations configurées. La publication est en cours ; leur présence ici ne vaut pas vérification du déploiement.
+Publication vérifiée le 13 octobre 2026 : les pages et les quatre fichiers QR/encart répondent en HTTPS. Le workflow de construction et de publication a réussi. Audit Lighthouse mobile de la page publique : performance 100, accessibilité 100, bonnes pratiques 100 (mesure ponctuelle, pas une certification).
 
 La date d’ouverture, les jours et certaines informations restent à confirmer. Aucun compte, formulaire patient, dépôt d’ordonnance, outil publicitaire ou mesure d’audience n’est intégré.
 
@@ -34,6 +34,8 @@ Le workflow `.github/workflows/deploy.yml` installe les dépendances, construit 
 
 - [Guide de modification](docs/guide-modification.md)
 - [Informations à confirmer et prochaines étapes](docs/prochaines-etapes.md)
+- [Journal de livraison et vérifications](docs/journal-livraison.md)
+- [Illustration : fichier, provenance et prompt](docs/illustration.md)
 
 ## QR et impression
 

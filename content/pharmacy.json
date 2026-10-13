@@ -1,0 +1,72 @@
+{
+  "name": "Grande Pharmacie des Vernedes",
+  "shortName": "des Vernedes",
+  "city": "Fréjus",
+  "address": "151 rue de la Vernede",
+  "postalCity": "83600 Fréjus",
+  "phone": "04 94 51 28 98",
+  "phoneInternational": "+33494512898",
+  "publication": {
+    "mode": "presentation",
+    "notice": "Version de présentation — informations à confirmer",
+    "siteUrl": "https://doctorsilver-xai.github.io/vernedes-qr/",
+    "permanentUrl": "https://grandepharmaciedesvernedes.fr/bienvenue/",
+    "status": "Une nouvelle adresse se prépare",
+    "opening": "La date d’ouverture sera annoncée ici."
+  },
+  "hero": {
+    "eyebrow": "BIENTÔT À FRÉJUS",
+    "title": "Un nouveau lieu,",
+    "titleAccent": "tout près de vous.",
+    "description": "La Grande Pharmacie des Vernedes prépare son ouverture. Retrouvez ici les premières informations sur votre future pharmacie et les services prévus pour vous accompagner au quotidien.",
+    "primaryAction": "Découvrir les informations",
+    "secondaryAction": "Nous contacter",
+    "illustrationCaption": "Une évocation de notre univers méditerranéen."
+  },
+  "hours": {
+    "morning": "8h30–13h30",
+    "afternoon": "14h30–19h30",
+    "note": "Horaires prévus · jours d’ouverture à confirmer"
+  },
+  "servicesIntro": {
+    "eyebrow": "À VOS CÔTÉS",
+    "title": "Des services pour votre quotidien.",
+    "description": "Quatre services prévus dans votre future pharmacie. Leurs modalités seront précisées à l’ouverture."
+  },
+  "services": [
+    { "icon": "vaccine", "title": "Vaccination", "description": "Un service de vaccination à retrouver dans votre future pharmacie." },
+    { "icon": "orthopedic", "title": "Orthopédie", "description": "Un espace dédié à l’orthopédie et à vos besoins de confort au quotidien." },
+    { "icon": "home", "title": "Maintien à domicile", "description": "Un service pour vous accompagner dans vos besoins à domicile." },
+    { "icon": "delivery", "title": "Livraison", "description": "Un service de livraison prévu pour faciliter votre quotidien." }
+  ],
+  "practical": {
+    "eyebrow": "VOTRE FUTURE ADRESSE",
+    "title": "L’essentiel, en un coup d’œil.",
+    "intro": "Gardez ces informations à portée de main. Cette page sera mise à jour au fil de la préparation de l’ouverture."
+  },
+  "contact": {
+    "eyebrow": "GARDONS LE CONTACT",
+    "title": "Une question sur la future pharmacie ?",
+    "description": "Vous pouvez utiliser le numéro communiqué pour vous renseigner sur le projet.",
+    "note": "Coordonnées présentées pour validation. L’ouverture du nouvel établissement n’est pas encore annoncée."
+  },
+  "qr": {
+    "title": "Votre pharmacie, à portée de scan.",
+    "description": "Depuis votre porte-ordonnance, retrouvez les informations pratiques de votre future pharmacie. Une page à garder, qui évoluera avec vous.",
+    "label": "Démonstration — ne pas imprimer en série"
+  },
+  "actions": {
+    "call": "Appeler pour se renseigner",
+    "directions": "Voir la future adresse",
+    "copy": "Copier l’adresse",
+    "copySuccess": "Adresse copiée.",
+    "copyFailure": "La copie automatique n’est pas disponible. Sélectionnez l’adresse ci-dessus pour la copier."
+  },
+  "reviewItems": [
+    "Date d’ouverture et jours d’ouverture",
+    "Validité du numéro de téléphone avant l’ouverture",
+    "Modalités des quatre services",
+    "Identité visuelle et mentions de publication",
+    "Gabarit imprimeur et raccordement du domaine définitif"
+  ]
+}

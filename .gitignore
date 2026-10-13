@@ -1,0 +1,14 @@
+node_modules/
+dist/
+delivery/
+.DS_Store
+.env*
+*.token
+*.pem
+*.key
+*.m4a
+*.mp3
+*.wav
+credentials*.json
+client_secret*.json
+*.log

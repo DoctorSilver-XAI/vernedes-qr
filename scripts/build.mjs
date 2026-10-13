@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
 import QRCode from 'qrcode';
+import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 
 const c = JSON.parse(await readFile('content/pharmacy.json', 'utf8'));
@@ -7,6 +8,7 @@ if (c.publication.mode !== 'presentation') throw new Error('Cette V1 est réserv
 const site = new URL(c.publication.siteUrl);
 if (site.protocol !== 'https:' || !site.pathname.endsWith('/')) throw new Error('siteUrl doit être une URL HTTPS terminée par /.');
 const base = site.pathname;
+const assetRevision = createHash('sha256').update(await readFile('src/styles.css')).update(await readFile('src/assets/favicon.svg')).digest('hex').slice(0,12);
 const target = new URL('bienvenue/', site).href;
 const esc = value => String(value).replace(/[&<>"']/g, x => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
 const fullAddress = `${c.address}, ${c.postalCity}`;
@@ -26,7 +28,7 @@ const shapes = {
 };
 const icon = name => `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${shapes[name] ?? shapes.leaf}</svg>`;
 const brand = `<span class="brand-name">Grande Pharmacie <strong>${esc(c.shortName)}</strong></span>`;
-const head = (title, description) => `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="theme-color" content="#173f35"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><link rel="icon" href="${base}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="${base}styles.css"></head>`;
+const head = (title, description) => `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="theme-color" content="#173f35"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><link rel="icon" href="${base}assets/favicon.svg?v=${assetRevision}" type="image/svg+xml"><link rel="stylesheet" href="${base}styles.css?v=${assetRevision}"></head>`;
 const footer = `<footer class="footer wrap"><a class="brand" href="${base}bienvenue/" aria-label="${esc(c.name)} — accueil">${brand}</a><div><p>${esc(c.city)} · Une nouvelle adresse se prépare.</p><p class="affiliation">${esc(c.affiliation)}</p><nav aria-label="Informations de publication"><a href="${base}presentation/">À propos de cette présentation</a><a href="${base}kit/">Kit QR de démonstration</a></nav></div><span class="footer-note">Présentation · 2026</span></footer>`;
 
 const html = `${head(`${c.name} — Bientôt à Fréjus`, c.hero.description)}<body>

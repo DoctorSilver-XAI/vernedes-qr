@@ -57,3 +57,5 @@ Vérification : les 5 tests passent ; workflow GitHub Actions `38354557429` term
 Signature typographique remplaçant le V/étoile, textes et actions plus lisibles, cartes de services mobiles en une colonne, coordonnées prioritaires avant la carte sur téléphone. Navigation vers services et horaires explicite. Aucun changement de destination du QR. Audit détaillé : `audit-ux-ui.md` ; comparatif illustré local : `delivery/audit/rapport.html`.
 
 Contrôles : quatre largeurs sans débordement, copie et itinéraire fonctionnels, liens téléphone vérifiés sans appel, focus visible, console sans erreur. Lighthouse local mobile 100/100/100. Prochaine action : validation par Marjorie et essai des parcours avec une personne extérieure au projet.
+
+Contrôle après déploiement : une feuille de style ancienne restait en cache dans Chrome malgré le nouvel HTML. Ajout d’une version dérivée du contenu aux URL du CSS et du favicon ; adaptation du contrôle des ressources pour ignorer la query string. Cette correction assure le chargement de la version courante lors des mises à jour.

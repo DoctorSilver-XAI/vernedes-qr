@@ -21,7 +21,7 @@ test('Toutes les pages et leurs ressources respectent le sous-chemin de publicat
       if(link.startsWith('#')){assert.ok(document.getElementById(link.slice(1)),`${page}: ${link}`);continue;}
       if(!link.startsWith('/')) continue;
       assert.ok(link.startsWith(site.pathname),`Chemin hors base : ${link}`);
-      const path=link.slice(site.pathname.length);
+      const path=new URL(link,site).pathname.slice(site.pathname.length);
       await access(`dist/${path}${path.endsWith('/')?'index.html':''}`);
     }
   }
